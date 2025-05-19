@@ -19,11 +19,7 @@ const Hero = () => {
         </p>
         <p className="mt-4 font-dmSans text-xs font-medium text-[#C6C6C6] lg:mt-7 lg:text-sm extraLg:mt-8 extraLg:text-base 2xl:mt-9">
           Prolific, full stack web developer with a passion for metrics and beating former
-          "best-yets. Prototyped 25 new product features per year for Flexor, Inc. Decreased rework
-          by 22% and costs by 15%. Consistently receive high user experience scores for all web
-          development projects, including a 55% increase for Flexor, Inc. Passionate about building
-          world class web applications. One of my sites received a 2020 Webby for Best Navigation
-          and Structure.
+          "best-yets. Prototyped 25 new product features per year for Flexor, Inc Decreased rework by 22% and costs by 15%. Consistently receive high user experience scores for all web development projects, including a 55% increase for Flexor, Inc. Passionate about building world class web applications. One of my sites received a 2020 Webby for Best Navigation and Structure.
         </p>
 
         <button className="bg-gradient-to-r from-[#F5BD4D] to-[#F89222] flex justify-center items-center rounded-full gap-3 py-3 px-6 font-dmSans font-bold text-[#ffffff] text-base mt-10">

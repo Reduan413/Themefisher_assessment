@@ -4,7 +4,7 @@ import Icons from "@/components/elements/Icons/Icons";
 import AppContext from "@/context/AppContext";
 import Image from "next/image";
 import { useContext } from "react";
-import Hero from "./(pages)/(home)/components/hero";
+import Hero from "./(pages)/(home)/components/Hero";
 
 const Page = () => {
   const { sectionRefs } = useContext(AppContext);
@@ -21,7 +21,7 @@ const Page = () => {
       </div>
       <div className="relative h-full w-full"></div>
       <div className="h-full w-full">
-        <Hero />
+        <Hero/>
         <section
           id="about"
           ref={sectionRefs.about}
