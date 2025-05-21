@@ -1,3 +1,4 @@
+import SectionTitle from "@/components/elements/SectionTitle";
 import PricingCard from "./PricingCard";
 
 const plans = [
@@ -173,9 +174,9 @@ const plans = [
 
 const PricingSection = () => {
   return (
-    <section className=" px-4 py-16 text-white">
-      <h2 className="mb-12 text-center text-3xl font-bold">Pricing</h2>
-      <div className="mx-auto grid max-w-6xl grid-cols-1 gap-6 md:grid-cols-2">
+    <section className=" px-4 py-7 lg:py-16 text-white">
+       <SectionTitle title={"Pricing"} />
+      <div className="mx-auto grid max-w-6xl grid-cols-1 gap-6 md:grid-cols-2 mt-5 lg:mt-10">
         {plans.map((plan, i) => (
           <PricingCard key={i} plan={plan}/>
         ))}

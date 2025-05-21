@@ -100,6 +100,7 @@ const Navbar = ({}) => {
               <Link
                 key={link.id}
                 href={link.link}
+                onClick={()=>setShowNavbar(!showNavbar)}
                 className={`transform ${
                   activeLink === link.title.toLowerCase() ? "text-[#F89222]" : "text-[#646464]"
                 } text-3xl hover:text-[#F89222] lg:text-xl extraLg:text-2xl 2xl:text-3xl`}
