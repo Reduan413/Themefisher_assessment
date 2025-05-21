@@ -4,7 +4,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "e-commerce-test.sgp1.digitaloceanspaces.com",
+        hostname: "i.postimg.cc",
         port: "",
         pathname: "/**", // <-- FIXED here
       },

@@ -1,8 +1,28 @@
 "use client";
 
+import FooterButton from "./FooterButton";
+
 const Footer = ({}) => {
   return (
     <div>
+      {/* mobile navbar */}
+      <div className="relative flex flex-col gap-4 py-4 lg:hidden">
+        <div
+          className="absolute bottom-0 right-0 -z-10 h-full w-[80%] bg-[#121414]"
+          style={{
+            clipPath: "polygon(22% 0, 100% 0%, 100% 100%, 0 100%)",
+          }}
+        ></div>
+
+        <p className="origin-center whitespace-nowrap text-center font-sans text-sm font-normal text-[#A5A5A5]">
+          © design by themefisher developed by gethugothemes
+        </p>
+
+        <div className="flex items-center justify-center gap-3">
+          <FooterButton text={"Fr"} />
+          <FooterButton text={"En"} />
+        </div>
+      </div>
       {/* web navbar */}
       <div className="fixed right-0 top-0 z-30 hidden h-screen w-[4.375rem] items-center justify-center bg-[#171B1A] lg:grid extraLg:w-20 2xl:w-[5.75rem]">
         <div
@@ -19,12 +39,8 @@ const Footer = ({}) => {
             </p>
           </div>
           <div className="flex flex-col items-center gap-3">
-            <button className="flex items-center justify-center rounded-full bg-[#1D2221] font-dmSans text-xs font-normal text-[#ffffff] transition-colors hover:bg-gradient-to-r from-[#F5BD4D] to-[#F89222] hover:text-white lg:h-8 lg:w-8 extraLg:h-10 extraLg:w-10">
-              Fr
-            </button>
-            <button className="flex items-center justify-center rounded-full bg-[#1D2221] font-dmSans text-xs font-normal text-white transition-colors hover:bg-gradient-to-r from-[#F5BD4D] to-[#F89222] lg:h-8 lg:w-8 extraLg:h-10 extraLg:w-10">
-              En
-            </button>
+            <FooterButton text={"Fr"} />
+            <FooterButton text={"En"} />
           </div>
         </div>
       </div>

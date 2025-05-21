@@ -6,6 +6,7 @@ const AppContext = createContext({});
 
 function AppContextProvider({ children }) {
   const [showModal, setShowModal] = useState(false);
+  const [showNavbar, setShowNavbar] = useState(false);
   const sectionRefs = {
     home: useRef(null),
     about: useRef(null),
@@ -16,12 +17,18 @@ function AppContextProvider({ children }) {
   const showModalToggle = () => {
     setShowModal((prevState) => !prevState);
   };
+  const showNavbarToggle = () => {
+    setShowNavbar((prevState) => !prevState);
+  };
   return (
     <AppContext.Provider
       value={{
         showModal,
         showModalToggle,
-        sectionRefs
+        sectionRefs,
+        showNavbar,
+        setShowNavbar,
+        showNavbarToggle,
       }}
     >
       {children}

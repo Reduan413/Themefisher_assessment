@@ -2,16 +2,18 @@
 import AppContext from "@/context/AppContext";
 import { useContext } from "react";
 import { FiDownload } from "react-icons/fi";
+import HeroBanner from "./HeroBanner";
 
 const Hero = () => {
   const { sectionRefs } = useContext(AppContext);
   return (
-    <section id="home" ref={sectionRefs.home} className="h-screen pl-12 pt-10">
-      <div className="w-[63%]">
+    <section id="home" ref={sectionRefs.home} className="lg:h-screen px-0 pt-0 lg:pl-[10%] lg:pt-10">
+      <HeroBanner/>
+      <div className=" w-full lg:w-[63%] px-5 pt-10 lg:px-0 lg:pt-0">
         <h5 className="bg-gradient-to-r from-[#F5BD4D] to-[#F89222] bg-clip-text font-dmSans text-base font-bold text-transparent lg:text-sm extraLg:text-base">
           INTRODUCTION
         </h5>
-        <h2 className="mt-3 font-dmSans text-5xl font-bold !leading-[130%] text-[#ffffff] lg:text-3xl extraLg:text-4xl 2xl:text-5xl">
+        <h2 className="mt-3 font-dmSans text-2xl font-bold !leading-[130%] text-[#ffffff] lg:text-3xl extraLg:text-4xl 2xl:text-5xl">
           I'm a Creative Developer & UI/UX Design Expert
         </h2>
         <p className="font-dmSans font-bold text-[#ffffff] lg:mt-3 lg:text-sm extraLg:mt-4 extraLg:text-base">

@@ -13,8 +13,6 @@ export default {
       },
       fontFamily: {
         dmSans: "var(--font-dmSans)",
-        anjelScript: "var(--font-anjelScript)",
-        felixTitlin: "var(--font-felixTitlin)",
       },
       backgroundImage: {
         "custom-gradient":
