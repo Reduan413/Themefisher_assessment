@@ -1,0 +1,66 @@
+export const portfolioData = [
+  {
+    id: "1",
+    title: "Figma Mockup",
+    description: "Figma mockup PSD available",
+    category: "Graphic Design",
+    src: "https://i.postimg.cc/k4fz2DzR/card-img-1.png",
+  },
+  {
+    id: "2",
+    title: "Shopping Bag",
+    description: "Brand identity design",
+    category: "Graphic Design",
+    src: "https://i.postimg.cc/rssbxM2n/card-img-2.png",
+  },
+  {
+    id: "3",
+    title: "Smart Watch",
+    description: "Product design",
+    category: "UI/UX Design",
+    src: "https://i.postimg.cc/d0RzK59B/card-img-3.png",
+  },
+  {
+    id: "8",
+    title: "Photography",
+    description: "Photography Project",
+    category: "Photography",
+    src: "https://i.postimg.cc/qMfSzfZL/Rectangle-12668.png",
+  },
+  {
+    id: "4",
+    title: "Mobile App",
+    description: "UI/UX design for mobile",
+    category: "Mobile App",
+    src: "https://i.postimg.cc/6QxDSkCq/card-img-4.png",
+  },
+  {
+    id: "5",
+    title: "Coffee Mug",
+    description: "Product design",
+    category: "Graphic Design",
+    src: "https://i.postimg.cc/V6Y2sXGc/card-img-5.png",
+  },
+  {
+    id: "6",
+    title: "Color Palette",
+    description: "Brand identity design",
+    category: "Graphic Design",
+    src: "https://i.postimg.cc/2yttxMzz/card-img-6.png",
+  },
+  {
+    id: "7",
+    title: "Website design",
+    description: "Website design showcase",
+    category: "Graphic Design",
+    src: "https://i.postimg.cc/y6p2Bg0w/card-img-7.png",
+  },
+  {
+    id: "8",
+    title: "Photography",
+    description: "Photography Project",
+    category: "Photography",
+    src: "https://i.postimg.cc/qMfSzfZL/Rectangle-12668.png",
+  },
+
+];

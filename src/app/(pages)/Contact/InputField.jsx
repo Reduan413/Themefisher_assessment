@@ -1,7 +1,7 @@
 // components/InputField.jsx
 const InputField = ({ name, type = "text", value, placeholder, onChange, textarea = false }) => {
   const classes =
-    "p-3 rounded-lg bg-black border border-gray-700 text-white w-full  ring-offset-0 border-[#f8912259] focus:outline-none focus:ring-[1px] focus:ring-[#F89222]";
+    "p-3 rounded-lg bg-black border border-[#f8912259] text-white w-full  ring-offset-0 border-[#f8912259] focus:outline-none focus:ring-[1px] focus:ring-[#F89222]";
 
   return (
     <div className={`${textarea ? "col-span-2" : ""}`}>

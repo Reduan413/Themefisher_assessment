@@ -10,7 +10,7 @@ const SkillDetails = () => {
     { name: "Web Design", level: 95 },
   ];
   return (
-    <div className="mx-auto rounded-lg pt-8 text-white">
+    <div className="mx-auto rounded-lg py-8 text-white">
       <SectionTitle title={"Skills"} />
       <div className="mt-8 flex flex-col gap-8">
         {skills.map((skill, index) => (

@@ -3,6 +3,7 @@
 import AppContext from "@/context/AppContext";
 import { useContext } from "react";
 import Hero from "./(pages)/(home)/components/Hero";
+import Portfolio from "./(pages)/(home)/components/Portfolio/Portfolio";
 import PricingSection from "./(pages)/(home)/components/PricingSection/PricingSection";
 import Resume from "./(pages)/(home)/components/Resume/Resume";
 import Skills from "./(pages)/(home)/components/Skills/Skills";
@@ -22,12 +23,7 @@ const Page = () => {
         <Hero />
         <Resume />
         <Skills />
-
-        <section
-          id="skill"
-          ref={sectionRefs.skill}
-          className="flex h-screen items-center justify-center"
-        ></section>
+        <Portfolio />
         <PricingSection />
         <Contact />
       </div>
